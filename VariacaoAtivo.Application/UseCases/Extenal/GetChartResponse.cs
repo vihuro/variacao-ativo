@@ -34,7 +34,7 @@
     }
     public class Quote
     {
-       
         public List<string> Open { get; set; }
+        public List<string> Close { get; set; }
     }
 }

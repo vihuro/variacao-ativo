@@ -12,7 +12,7 @@ namespace VariacaoAtivo.Application
 
             services.AddMediatR(md =>
                         md.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
-
+            services.AddHostedService<Worker>();
             /*services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));*/

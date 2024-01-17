@@ -10,3 +10,15 @@ C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Application\obj\Debug\net7
 C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Application\obj\Debug\net7.0\refint\VariacaoAtivo.Application.dll
 C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.pdb
 C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Application\obj\Debug\net7.0\ref\VariacaoAtivo.Application.dll
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\bin\Debug\net7.0\VariacaoAtivo.Application.deps.json
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\bin\Debug\net7.0\VariacaoAtivo.Application.dll
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\bin\Debug\net7.0\VariacaoAtivo.Application.pdb
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.csproj.AssemblyReference.cache
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.AssemblyInfoInputs.cache
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.AssemblyInfo.cs
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.dll
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\refint\VariacaoAtivo.Application.dll
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.pdb
+C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\ref\VariacaoAtivo.Application.dll

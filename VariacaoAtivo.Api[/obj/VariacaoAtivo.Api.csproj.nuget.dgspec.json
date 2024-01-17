@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Api[\\VariacaoAtivo.Api.csproj": {}
+    "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Api[\\VariacaoAtivo.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Api[\\VariacaoAtivo.Api.csproj": {
+    "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Api[\\VariacaoAtivo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Api[\\VariacaoAtivo.Api.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Api[\\VariacaoAtivo.Api.csproj",
         "projectName": "VariacaoAtivo.Api",
-        "projectPath": "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Api[\\VariacaoAtivo.Api.csproj",
-        "packagesPath": "C:\\Users\\thr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Api[\\obj\\",
+        "projectPath": "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Api[\\VariacaoAtivo.Api.csproj",
+        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Api[\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\thr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj": {
-                "projectPath": "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj"
+              "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj": {
+                "projectPath": "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj"
               }
             }
           }
@@ -84,25 +81,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj": {
+    "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj",
         "projectName": "VariacaoAtivo.Application",
-        "projectPath": "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj",
-        "packagesPath": "C:\\Users\\thr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Application\\obj\\",
+        "projectPath": "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Application\\VariacaoAtivo.Application.csproj",
+        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\thr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,6 +125,10 @@
               "target": "Package",
               "version": "[12.2.0, )"
             },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -153,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
