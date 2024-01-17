@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VariacaoAtivo.Api</name>
+    </assembly>
+    <members>
+        <member name="M:VariacaoAtivo.Api_.Controllers.ChartController.GetChartExternal(System.Threading.CancellationToken)">
+            <summary>
+            Busca a cotação de ação, direto na API do yahoo.
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VariacaoAtivo.Api_.Controllers.ChartController.GetForBI(System.Threading.CancellationToken)">
+            <summary>
+            Busca as cotações, com a variação de cotação, para um gráfico.
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VariacaoAtivo.Api_.Controllers.ChartController.UpdateList(System.Threading.CancellationToken)">
+            <summary>
+            Atualiza a ação para o banco de dados local.
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

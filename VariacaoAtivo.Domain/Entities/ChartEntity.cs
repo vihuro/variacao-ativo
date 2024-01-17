@@ -9,7 +9,7 @@ namespace VariacaoAtivo.Domain.Entities
         public string Symbol { get; set; }
         public string ExachangeName { get; set; }
         public string ExchangeTimeZone { get; set; }
-        public double RegularMarketPrince { get; set; }
+        public double RegularMarketPrice { get; set; }
         public double ChartPreviousClose { get; set; }
         public double PreviousClose { get; set; }
         public List<double> QuoteClose { get; set; }

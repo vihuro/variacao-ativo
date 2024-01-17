@@ -2,11 +2,9 @@
 {
     public class GetChartResponse
     {
-        public Chart Chart { get; set; }
-
-
+        public ChartItem Chart { get; set; }
     }
-    public class Chart
+    public class ChartItem
     {
         public List<Result> Result { get; set; }
 
@@ -22,6 +20,7 @@
         public string Currency { get; set; }
         public string Symbol { get; set; }
         public string Timezone { get; set; }
+        public string ExchangeName { get; set; }
         public string ExchangeTimezoneName { get; set; }
         public double RegularMarketPrice { get; set; }
         public double ChartPreviousClose { get; set; }
@@ -36,5 +35,7 @@
     {
         public List<string> Open { get; set; }
         public List<string> Close { get; set; }
+        public List<string> High { get; set; }
+        public List<string> Low { get; set; }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\bin\Debug\net7.0\VariacaoAtivo.Persistence.deps.json
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\bin\Debug\net7.0\VariacaoAtivo.Persistence.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\bin\Debug\net7.0\VariacaoAtivo.Persistence.pdb
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\bin\Debug\net7.0\VariacaoAtivo.Domain.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\bin\Debug\net7.0\VariacaoAtivo.Domain.pdb
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.csproj.AssemblyReference.cache
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.AssemblyInfoInputs.cache
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.AssemblyInfo.cs
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.sourcelink.json
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.csproj.CopyComplete
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\refint\VariacaoAtivo.Persistence.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\VariacaoAtivo.Persistence.pdb
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Persistence\obj\Debug\net7.0\ref\VariacaoAtivo.Persistence.dll

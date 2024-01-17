@@ -8,8 +8,6 @@ namespace VariacaoAtivo.Application.UseCases.Extenal
     {
         private HttpClient _httpClient;
 
-
-
         public async Task<GetChartResponse> Handle(GetChartRequest request, CancellationToken cancellationToken)
         {
             _httpClient = new HttpClient();

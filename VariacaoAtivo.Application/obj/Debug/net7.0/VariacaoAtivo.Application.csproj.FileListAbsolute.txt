@@ -22,3 +22,7 @@ C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\n
 C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\refint\VariacaoAtivo.Application.dll
 C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.pdb
 C:\Users\vitor\Desktop\.NET\variacao-ativo\VariacaoAtivo.Application\obj\Debug\net7.0\ref\VariacaoAtivo.Application.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Application\bin\Debug\net7.0\VariacaoAtivo.Domain.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Application\bin\Debug\net7.0\VariacaoAtivo.Domain.pdb
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.sourcelink.json
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Application\obj\Debug\net7.0\VariacaoAtivo.Application.csproj.CopyComplete

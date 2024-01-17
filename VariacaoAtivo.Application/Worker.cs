@@ -1,8 +1,8 @@
 ﻿using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
-using VariacaoAtivo.Application.UseCases.Extenal;
+using VariacaoAtivo.Application.UseCases.Chart.InsertOrUpdateChart;
 
 namespace VariacaoAtivo.Application
 {
@@ -10,22 +10,35 @@ namespace VariacaoAtivo.Application
     {
         private readonly ILogger<Worker> _logger;
         private readonly IMediator _mediator;
+        private IServiceProvider _services;
 
-        public Worker(ILogger<Worker> logger, IMediator mediator)
+        public Worker(ILogger<Worker> logger,
+                      IServiceProvider services)
         {
             _logger = logger;
-            _mediator = mediator;
+            _services = services;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                var result = await _mediator.Send(new GetChartRequest(), stoppingToken);
+                try
+                {
+                    using (var scope = _services.CreateScope())
+                    {
+                        var mediator = scope.ServiceProvider.GetService<IMediator>();
 
-                var teste = JsonConvert.SerializeObject(result, Formatting.Indented);
+                        await mediator.Send(new InsertOrUpdateChartRequest(), stoppingToken);
+                    }
+                }
+                catch (Exception ex)
+                {
 
-                _logger.LogInformation("Result of the API ", teste);
+                    Console.WriteLine(ex.Message);
+                }
+
+                _logger.LogInformation("Banco de dados atualizado!");
                 await Task.Delay(20000, stoppingToken);
             }
         }

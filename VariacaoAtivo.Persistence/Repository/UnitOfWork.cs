@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.EntityFrameworkCore.Storage;
 using VariacaoAtivo.Domain.Interfaces;
 using VariacaoAtivo.Persistence.Context;
 
@@ -11,6 +12,12 @@ namespace VariacaoAtivo.Persistence.Repository
         public UnitOfWork(AppDbContext context)
         {
             _context = context;
+        }
+
+        public IDbContextTransaction BeginTransaction()
+        {
+            return _context.Database.BeginTransaction();
+
         }
 
         public async Task Commit(CancellationToken cancellationToken)

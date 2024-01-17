@@ -1,0 +1,12 @@
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\bin\Debug\net7.0\VariacaoAtivo.Domain.deps.json
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\bin\Debug\net7.0\VariacaoAtivo.Domain.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\bin\Debug\net7.0\VariacaoAtivo.Domain.pdb
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\VariacaoAtivo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\VariacaoAtivo.Domain.AssemblyInfoInputs.cache
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\VariacaoAtivo.Domain.AssemblyInfo.cs
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\VariacaoAtivo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\VariacaoAtivo.Domain.sourcelink.json
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\VariacaoAtivo.Domain.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\refint\VariacaoAtivo.Domain.dll
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\VariacaoAtivo.Domain.pdb
+C:\Users\thr\Desktop\.NET\VariacaoAtivo\VariacaoAtivo.Domain\obj\Debug\net7.0\ref\VariacaoAtivo.Domain.dll

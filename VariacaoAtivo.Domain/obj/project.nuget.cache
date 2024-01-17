@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GnBeLmkAtSBx/dyUgzih8W2OdfsVkmtlE6SsXceW65zFbY+d9GkyBmEdH71kFGBi33b/aEnI7mhZSC2tbGtGXg==",
+  "dgSpecHash": "vORfmA1hPaUoAAUzJr4iwA18YjGwie0IblDgWYvsAWCaRBoAaGdgsLqm+QlvtJ6Lo1kmsDidQDkSwxafBrD/aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vitor\\Desktop\\.NET\\variacao-ativo\\VariacaoAtivo.Domain\\VariacaoAtivo.Domain.csproj",
+  "projectFilePath": "C:\\Users\\thr\\Desktop\\.NET\\VariacaoAtivo\\VariacaoAtivo.Domain\\VariacaoAtivo.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
