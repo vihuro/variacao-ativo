@@ -8,17 +8,17 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["VariacaoAtivo.Api[/VariacaoAtivo.Api[.csproj", "VariacaoAtivo.Api[/"]
-RUN dotnet restore "./VariacaoAtivo.Api[/./VariacaoAtivo.Api[.csproj"
+COPY ["VariacaoAtivo.Api/VariacaoAtivo.Api.csproj", "VariacaoAtivo.Api/"]
+RUN dotnet restore "./VariacaoAtivo.Api/./VariacaoAtivo.Api.csproj"
 COPY . .
-WORKDIR "/src/VariacaoAtivo.Api["
-RUN dotnet build "./VariacaoAtivo.Api[.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/VariacaoAtivo.Api"
+RUN dotnet build "./VariacaoAtivo.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./VariacaoAtivo.Api[.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./VariacaoAtivo.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "VariacaoAtivo.Api[.dll"]
+ENTRYPOINT ["dotnet", "VariacaoAtivo.Api.dll"]

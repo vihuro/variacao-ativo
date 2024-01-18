@@ -25,16 +25,11 @@ namespace VariacaoAtivo.Api_.Controllers
         [HttpGet("external")]
         public async Task<ActionResult<GetChartResponse>> GetChartExternal(CancellationToken cancellationToken)
         {
-            try
-            {
-                var result = await _mediator.Send(new GetChartRequest(), cancellationToken);
 
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            var result = await _mediator.Send(new GetChartRequest(), cancellationToken);
+
+            return Ok(result);
+
         }
         /// <summary>
         /// Busca as cotações, com a variação de cotação, para um gráfico.
@@ -42,19 +37,11 @@ namespace VariacaoAtivo.Api_.Controllers
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         [HttpGet]
-        public async Task<ActionResult<GetChartForBIRequest>> GetForBI (CancellationToken cancellationToken)
+        public async Task<ActionResult<GetChartForBIRequest>> GetForBI(CancellationToken cancellationToken)
         {
-            try
-            {
-                var result = await _mediator.Send(new GetChartForBIRequest(), cancellationToken);
+            var result = await _mediator.Send(new GetChartForBIRequest(), cancellationToken);
 
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-
-                return BadRequest(ex.Message);
-            }
+            return Ok(result);
         }
 
         /// <summary>
@@ -65,17 +52,10 @@ namespace VariacaoAtivo.Api_.Controllers
         [HttpPut]
         public async Task<ActionResult<InsertOrUpdateChartResponse>> UpdateList(CancellationToken cancellationToken)
         {
-            try
-            {
-                var result = await _mediator.Send(new InsertOrUpdateChartRequest(), cancellationToken);
+            var result = await _mediator.Send(new InsertOrUpdateChartRequest(), cancellationToken);
 
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
+            return Ok(result);
 
-                return BadRequest(ex.Message);
-            }
         }
     }
 }

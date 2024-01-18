@@ -1,6 +1,9 @@
+using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using VariacaoAtivo.Api_.Middlewares;
 using VariacaoAtivo.Application;
 using VariacaoAtivo.Persistence;
+using VariacaoAtivo.Persistence.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +14,10 @@ builder.Services.ConfigureApplicationApp();
 
 
 builder.Services.AddControllers();
+builder.Services.AddCors(x => x.AddPolicy("corsPolicy", build =>
+{
+    build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -24,6 +31,20 @@ builder.Services.AddSwaggerGen(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+try
+{
+    using var serviceScope = app.Services.CreateScope();
+    var context = serviceScope.ServiceProvider.GetRequiredService<AppDbContext>();
+    context.Database.Migrate();
+}
+catch (Exception ex)
+{
+
+    Console.WriteLine(ex.Message);
+}
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger(options =>
@@ -35,10 +56,12 @@ if (app.Environment.IsDevelopment())
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
     });
 }
-
+app.UseCors("corsPolicy");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware(typeof(ErrorHandleMiddlewares));
 
 app.MapControllers();
 

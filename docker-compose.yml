@@ -1,0 +1,14 @@
+services:
+  api:
+    image: vihuro/api-chart-petra4
+    container_name: container-api-chart-petra4
+    ports:
+        - 2525:80
+    restart: always
+  db:
+    image: postgres
+    environment:
+        POSTGRES_PASSWORD: postgres
+    container_name: postgres
+    volumes:
+        - ./src/postgres/data:/var/lib/postgresql/data

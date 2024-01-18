@@ -19,7 +19,7 @@ namespace VariacaoAtivo.Application.UseCases.Chart.GetChartForBI
 
         public async Task<List<GetChartForBIResponse>> Handle(GetChartForBIRequest request, CancellationToken cancellationToken)
         {
-            var listItem = await _repository.GetAll(cancellationToken);
+            var listItem = await _repository.GetByBI(cancellationToken);
 
             return _mapper.Map<List<GetChartForBIResponse>>(listItem);
         }

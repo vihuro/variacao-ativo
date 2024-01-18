@@ -29,7 +29,6 @@ namespace VariacaoAtivo.Application.UseCases.Chart.InsertOrUpdateChart
             _unitOfWork = unitOfWork;
             _repository = repository;
         }
-
         /// <summary>
         /// Aqui é feito a busca na API externa do yahoo
         /// e antes de atualizar a lista no banco de dados, 

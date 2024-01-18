@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
-		<Nullable>enable</Nullable>
+		<Nullable>disable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<RootNamespace>VariacaoAtivo.Api_</RootNamespace>
 		<UserSecretsId>c2f43e91-b19a-4b5d-bb15-12aaeb24c38a</UserSecretsId>

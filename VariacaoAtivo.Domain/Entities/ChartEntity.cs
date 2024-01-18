@@ -2,6 +2,9 @@
 
 namespace VariacaoAtivo.Domain.Entities
 {
+    /// <summary>
+    /// Entidade Chart.
+    /// </summary>
     [Table("tab_chart")]
     public sealed class ChartEntity : BaseEntity
     {
