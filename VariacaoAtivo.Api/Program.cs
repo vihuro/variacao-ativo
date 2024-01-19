@@ -32,17 +32,11 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-try
-{
-    using var serviceScope = app.Services.CreateScope();
-    var context = serviceScope.ServiceProvider.GetRequiredService<AppDbContext>();
-    context.Database.Migrate();
-}
-catch (Exception ex)
-{
 
-    Console.WriteLine(ex.Message);
-}
+using var serviceScope = app.Services.CreateScope();
+var context = serviceScope.ServiceProvider.GetRequiredService<AppDbContext>();
+context.Database.Migrate();
+
 
 
 if (app.Environment.IsDevelopment())

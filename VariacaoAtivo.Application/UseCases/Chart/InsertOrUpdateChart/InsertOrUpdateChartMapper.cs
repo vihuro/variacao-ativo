@@ -48,6 +48,8 @@ namespace VariacaoAtivo.Application.UseCases.Chart.InsertOrUpdateChart
         {
             var listDooble = new List<double>();
 
+            if(listString == null ||listString.Count == 0) return listDooble;
+
             int interadorAuxiliar = 0;
 
             /// Verifica se o valor passado não é nulo.
