@@ -36,8 +36,11 @@ Window
 ```bash
 docker compose up
 ```
+Esse comando, irá iniciar os seguintes containers: 
+API Variação-Ativo,
+PostgreSQL usando um volume local que será criado a usar o comando
 
-
+A API está preparada para que, ao subir o serviço de banco de dados, seja realizado as migrations no banco, corretamente.
 
 
 ## Documentação da API
